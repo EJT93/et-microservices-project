@@ -1,7 +1,0 @@
-Software:
-- Git
-- Jenkins
-- Docker
-- Helm
-
-Configurations
