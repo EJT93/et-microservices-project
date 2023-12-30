@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eos-micro-services-registry
+  labels:
+    app: eos-micro-services-registry
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eos-micro-services-registry
+  template:
+    metadata:
+      labels:
+        app: eos-micro-services-registry
+    spec:
+      containers:
+      - name: eos-micro-services-registry
+        image: docker.io/etorrence93/et-micro-registry:1.0
+        ports:
+        - containerPort: 8761
