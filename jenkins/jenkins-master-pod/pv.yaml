@@ -6,4 +6,4 @@ metadata:
 provisioner: kubernetes.io/aws-ebs
 parameters:
   type: gp2
-  zones: us-east-1a
+  zones: us-east-2a

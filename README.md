@@ -6,4 +6,7 @@
 - Docker
 - Helm
 
+- JDK 11
+- NodeJS
+
 ### Configurations:

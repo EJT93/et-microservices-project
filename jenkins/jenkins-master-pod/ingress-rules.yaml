@@ -4,7 +4,7 @@ metadata:
   name: jenkins
 spec:
   rules:
-  - host: jenkins.edshopper.com
+  - host: jenkins.e-torrence.com
     http:
       paths:
       - path: /
