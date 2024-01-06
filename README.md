@@ -1,7 +1,3 @@
-Here is a suggested README for your GitHub repository `komplete-devops-k8s-manifests`:
-
----
-
 # Komplete DevOps Kubernetes Manifests
 
 This repository contains Kubernetes manifests for setting up and managing a full-stack application architecture, including CI/CD with Jenkins, cluster administration with Rancher, monitoring with Prometheus and Grafana, and various microservices.
@@ -51,11 +47,3 @@ Apply manifests from the `cluster-management/monitoring/` directory to set up Pr
 ### Microservices Deployment
 
 Each microservice, including the admin panel, gateway, and web application, has its own set of manifests for deployment, service configuration, and ingress setup located in the `microservices/` directory.
-
-## Contributing
-
-Contributions to improve the setup or add more configurations are welcome. Please ensure to update the documentation accordingly.
-
----
-
-Feel free to customize the README further based on your specific requirements or additional details you would like to provide about your project.
